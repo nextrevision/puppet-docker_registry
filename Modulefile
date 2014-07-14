@@ -1,0 +1,12 @@
+name          'nextrevision-docker_registry'
+version       '0.1.0'
+source        'https://github.com/nextrevision/puppet-docker_registry'
+author        'nextrevision'
+license       'Apache 2.0'
+summary       'Registry server for Docker (hosting/delivering of repositories and images)'
+description   'Registry server for Docker (hosting/delivering of repositories and images)'
+project_page  'https://github.com/nextrevision/puppet-docker_registry'
+
+dependency 'puppetlabs/stdlib'
+dependency 'stankevich/puppet-python'
+dependency 'jfryman/puppet-nginx'
